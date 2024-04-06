@@ -1,0 +1,37 @@
+/* Styling for the checkout container */
+.checkout {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Adding padding around the content */
+    padding: 20px;
+    /* Setting the background color */
+    background-color: white;
+    /* Setting the height to fit the content */
+    height: max-content;
+}
+
+/* Styling for the ad section */
+.checkout__ad {
+    /* Setting the width to 100% of the parent width */
+    width: 100%;
+    /* Setting the margin below the ad */
+    margin-bottom: 10px;
+}
+
+/* Styling for the checkout title */
+.checkout__title {
+    /* Setting the margin to the right of the title */
+    margin-right: 10px;
+    /* Adding padding around the title */
+    padding: 10px;
+    /* Adding a border below the title */
+    border-bottom: 1px solid lightgray;
+}
+
+/* Styling for the left section of the checkout page */
+.checkout__left {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Arranging the children in a column */
+    flex-direction: column;
+}

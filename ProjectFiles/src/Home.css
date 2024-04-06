@@ -1,0 +1,37 @@
+/* Styling for the home container */
+.home {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Centering the children along the horizontal line */
+    justify-content: center;
+    /* Setting the left and right margins to auto */
+    margin-left: auto;
+    margin-right: auto;
+    /* Setting the maximum width of the container */
+    max-width: 1500px;
+}
+
+/* Styling for the home image */
+.home__image {
+    /* Setting the width to 100% of the parent width */
+    width: 100%;
+    /* Setting the height of the image */
+    height: 400px;
+    /* Setting the stack order of the image */
+    z-index: -1;
+    /* Setting the margin below the image */
+    margin-bottom: -50px;
+    /* Using a linear gradient for the mask image */
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+/* Styling for the home row */
+.home__row {  
+    /* Using flexbox for layout */
+    display: flex; 
+    /* Setting the stack order of the row */
+    z-index: 1; 
+    /* Setting the left and right margins */
+    margin-left: 5px;  
+    margin-right: 5px;
+}

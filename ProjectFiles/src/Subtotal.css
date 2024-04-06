@@ -1,0 +1,53 @@
+/* Styling for the subtotal container */
+.subtotal {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Arranging the children in a column */
+    flex-direction: column;
+    /* Distributing space between the children evenly */
+    justify-content: space-between;
+    /* Setting the width and height of the container */
+    width: 300px;
+    height: 100px;
+    /* Adding padding around the content */
+    padding: 20px;
+    /* Setting the background color */
+    background-color: #f3f3f3;
+    /* Adding a border around the container */
+    border: 1px solid #dddddd;
+    /* Adding rounded corners to the container */
+    border-radius: 3px;
+}
+
+/* Styling for the gift option */
+.subtotal__gift {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Aligning the children along the center line */
+    align-items: center;
+}
+
+/* Styling for the input field inside the gift option */
+.subtotal__gift > input {
+    /* Adding a margin to the right of the input field */
+    margin-right: 5px;
+}
+
+/* Styling for the button inside the subtotal container */
+.subtotal > button {
+    /* Setting the background color */
+    background: #ff9f00;
+    /* Adding rounded corners to the button */
+    border-radius: 2px;
+    /* Setting the width and height of the button */
+    width: 100%;
+    height: 30px;
+    /* Adding a border around the button */
+    border: 1px solid;
+    /* Adding a margin to the top of the button */
+    margin-top: 10px;
+    /* Setting the color of the border */
+    border-color: #a88734 #9c7e31 #846a29;
+    /* Setting the color of the text */
+    color: #111;
+}

@@ -1,0 +1,135 @@
+/* Styling for the header container */
+.header {
+    /* Setting the height of the header */
+    height: 60px; 
+    /* Using flexbox for layout */
+    display: flex;
+    /* Aligning the children along the center line */
+    align-items: center;
+    /* Setting the background color */
+    background-color: #131921;
+    /* Making the header sticky at the top of the page */
+    position: sticky;
+    top: 0;
+    /* Setting the stack order of the header */
+    z-index: 100;
+}
+
+/* Styling for the logo container */
+.header__logo {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Aligning the children along the center line */
+    align-items: center;
+    /* Setting the color of the logo */
+    color: #ff9f00;
+    /* Setting the margin around the logo */
+    margin: 0 25px;
+}
+
+/* Styling for the logo image */
+.header__logoImage {
+    /* Setting the margin to the right of the image */
+    margin-right: 10px;
+}
+
+/* Styling for the logo title */
+.header__logoTitle {
+    /* Removing the default text decoration */
+    text-decoration: none;
+    /* Removing the default border */
+    border: 0;
+    /* Setting the color of the title */
+    color: white;
+}
+
+/* Styling for the search bar */
+.header__search {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Taking up the remaining space in the flex container */
+    flex: 1;
+    /* Aligning the children along the center line */
+    align-items: center;
+    /* Adding rounded corners to the search bar */
+    border-radius: 24px;
+    /* Setting the margin around the search bar */
+    margin: 0 10px;
+}
+
+/* Styling for the search input field */
+.header__searchInput {
+    /* Setting the height of the input field */
+    height: 12px;
+    /* Adding padding around the text */
+    padding: 10px;
+    /* Removing the default border */
+    border: none;
+    /* Setting the width to 100% of the parent width */
+    width: 100%;
+}
+
+/* Styling for the search icon */
+.header__searchIcon {
+    /* Adding padding around the icon */
+    padding: 5px;
+    /* Setting the height of the icon */
+    height: 22px !important;
+    /* Setting the background color */
+    background-color: #ff9f00;
+}
+
+/* Styling for the navigation items */
+.header__nav {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Distributing space evenly between the items */
+    justify-content: space-evenly;
+}
+
+/* Styling for each navigation item */
+.nav__item {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Arranging the children in a column */
+    flex-direction: column;
+    /* Setting the left and right margins */
+    margin-left: 10px;
+    margin-right: 10px;  
+    /* Setting the color of the text */
+    color: white;
+}
+
+/* Styling for the first line of text in each navigation item */
+.nav__itemLineOne {
+    /* Setting the font size */
+    font-size: 10px;
+}
+
+/* Styling for the second line of text in each navigation item */
+.nav__itemLineTwo {
+    /* Setting the font size */
+    font-size: 13px;
+    /* Setting the font weight */
+    font-weight: 800; 
+}
+
+/* Styling for the basket navigation item */
+.nav__itemBasket {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Aligning the children along the center line */
+    align-items: center;
+    /* Setting the color of the text */
+    color: white;
+    /* Setting the right and left margins */
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+/* Styling for the basket count */
+.nav__basketCount {
+    /* Setting the left and right margins */
+    margin-left: 10px;
+    margin-right: 10px;
+}

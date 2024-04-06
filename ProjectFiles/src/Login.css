@@ -1,0 +1,117 @@
+/* Styling for the login container */
+.login {
+    /* Setting the background color */
+    background-color: white;
+    /* Setting the height to 100% of the viewport height */
+    height: 100vh;
+    /* Using flexbox for layout */
+    display: flex;
+    /* Arranging the children in a column */
+    flex-direction: column;
+    /* Aligning the children along the center line */
+    align-items: center;
+}
+
+/* Styling for the logo container */
+.login__logo {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Setting the margin around the container */
+    margin: 30px 0;
+}
+
+/* Styling for the logo image */
+.login__logoImage {
+    /* Setting the color of the image */
+    color: #ff9f00;
+}
+
+/* Styling for the logo title */
+.login__logoTitle {
+    /* Setting the color of the title */
+    color: black;
+}
+
+/* Styling for the login form container */
+.login__container {
+    /* Setting the width of the container */
+    width: 300px;
+    /* Setting the height to fit the content */
+    height: fit-content;
+    /* Using flexbox for layout */
+    display: flex;
+    /* Arranging the children in a column */
+    flex-direction: column;
+    /* Adding rounded corners to the container */
+    border-radius: 5px;
+    /* Adding a border around the container */
+    border: 1px solid lightgray;
+    /* Adding padding around the content */
+    padding: 20px;
+}
+
+/* Styling for the form title */
+.login__container > h1 {
+    /* Setting the font weight */
+    font-weight: 500;
+    /* Setting the margin below the title */
+    margin-bottom: 20px;
+}
+
+/* Styling for the form labels */
+.login__container > form > h5 {
+    /* Setting the margin below the labels */
+    margin-bottom: 5px;
+}
+
+/* Styling for the form input fields */
+.login__container > form > input {
+    /* Setting the height of the input fields */
+    height: 30px;
+    /* Setting the margin below the input fields */
+    margin-bottom: 10px;
+    /* Setting the background color */
+    background-color: white;
+    /* Setting the width to 98% of the parent width */
+    width: 98%;
+}
+
+/* Styling for the form text */
+.login__container > p {
+    /* Setting the margin above the text */
+    margin-top: 15px;
+    /* Setting the font size */
+    font-size: 12px;
+}
+
+/* Styling for the sign in button */
+.login__signInButton {
+    /* Setting the background color */
+    background: #ff9f00;
+    /* Adding rounded corners to the button */
+    border-radius: 2px;
+    /* Setting the width and height of the button */
+    width: 100%;
+    height: 30px;
+    /* Adding a border around the button */
+    border: 1px solid;
+    /* Setting the margin above the button */
+    margin-top: 10px;
+    /* Setting the color of the border */
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+/* Styling for the register button */
+.login__registerButton {
+    /* Adding rounded corners to the button */
+    border-radius: 2px;
+    /* Setting the width and height of the button */
+    width: 100%;
+    height: 30px;
+    /* Adding a border around the button */
+    border: 1px solid;
+    /* Setting the margin above the button */
+    margin-top: 10px;
+    /* Setting the color of the border */
+    border-color: darkgray;
+}

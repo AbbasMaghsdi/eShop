@@ -1,0 +1,71 @@
+/* Styling for the product container */
+.product {
+  /* Using flexbox for layout */
+  display: flex;
+  /* Arranging the children in a column */
+  flex-direction: column;
+  /* Aligning the children along the center line */
+  align-items: center;
+  /* Pushing the children to the end of the container */
+  justify-content: flex-end;
+  /* Setting the margins around the container */
+  margin: 10px;
+  /* Adding padding around the content */
+  padding: 20px;
+  /* Setting the width of the container */
+  width: 100%;
+  /* Setting the maximum height of the container */
+  max-height: 400px;
+  /* Setting the minimum width of the container */
+  min-width: 100px;
+  /* Setting the background color */
+  background-color: white;
+  /* Setting the stack order of the container */
+  z-index: 1;
+}
+
+/* Styling for the product rating */
+.product__rating {
+  /* Using flexbox for layout */
+  display: flex;
+}
+
+/* Styling for the product image */
+.product > img {
+  /* Setting the maximum height of the image */
+  max-height: 200px;
+  /* Setting the width of the image */
+  width: 100%;
+  /* Resizing the image to fit its container while maintaining its aspect ratio */
+  object-fit: contain;
+  /* Setting the margins around the image */
+  margin: 20px 0 0 15px;
+}
+
+/* Styling for the product button */
+.product > button {
+  /* Setting the background color */
+  background: #ff9f00;
+  /* Adding a border around the button */
+  border: 1px solid;
+  /* Setting the margin above the button */
+  margin-top: 10px;
+  /* Setting the color of the border */
+  border-color: #a88734 #9c7e31 #846a29;
+  /* Setting the color of the text */
+  color: #111;
+}
+
+/* Styling for the product price */
+.product__price {
+  /* Setting the margin above the price */
+  margin-top: 5px;
+}
+
+/* Styling for the product information */
+.product__info {
+  /* Setting the height of the information */
+  height: 100px;
+  /* Setting the margin below the information */
+  margin-bottom: 15px;
+}

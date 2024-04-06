@@ -1,0 +1,51 @@
+/* Styling for the checkout product container */
+.checkoutProduct {
+    /* Using flexbox for layout */
+    display: flex;
+    /* Setting the top and bottom margins */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Styling for the product information container */
+.checkoutProduct__info {
+    /* Adding padding to the left of the container */
+    padding-left: 20px
+}
+
+/* Styling for the button inside the product information container */
+.checkoutProduct__info > button {
+    /* Setting the background color */
+    background: #ff9f00;
+    /* Adding a border around the button */
+    border: 1px solid;
+    /* Setting the margin above the button */
+    margin-top: 10px;
+    /* Setting the color of the border */
+    border-color: #a88734 #9c7e31 #846a29;
+    /* Setting the color of the text */
+    color: #111;
+}
+
+/* Styling for the product image */
+.checkoutProduct__image {
+    /* Resizing the image to fit its container while maintaining its aspect ratio */
+    object-fit: contain;
+    /* Setting the width and height of the image */
+    width: 180px;
+    height: 180px;
+}
+
+/* Styling for the product rating */
+.checkoutProduct__rating {
+    /* Using flexbox for layout */
+    display: flex;
+}
+
+/* Styling for the product title */
+.checkoutProduct__title {
+    /* Setting the font size */
+    font-size: 17px;
+    /* Setting the font weight */
+    font-weight: 800;
+}
